@@ -12,6 +12,7 @@
 		DE39CD152A7C035B0082B88F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE39CD142A7C035B0082B88F /* Assets.xcassets */; };
 		DE39CD182A7C035B0082B88F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE39CD172A7C035B0082B88F /* Preview Assets.xcassets */; };
 		DE57E6702A7D4D450073CBDF /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE57E66F2A7D4D450073CBDF /* NavigationBar.swift */; };
+		DEE2C8B92A7EAD7400604F48 /* OrderTypeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2C8B82A7EAD7400604F48 /* OrderTypeGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		DE39CD142A7C035B0082B88F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE39CD172A7C035B0082B88F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE57E66F2A7D4D450073CBDF /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		DEE2C8B82A7EAD7400604F48 /* OrderTypeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				DE57E66E2A7D4CC60073CBDF /* App */,
 				DE57E66D2A7D4C940073CBDF /* NavigationBar */,
+				DEE2C8B72A7EAD2200604F48 /* GridView */,
 				DE39CD142A7C035B0082B88F /* Assets.xcassets */,
 				DE39CD162A7C035B0082B88F /* Preview Content */,
 			);
@@ -84,6 +87,14 @@
 				DE39CD122A7C03590082B88F /* ContentView.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		DEE2C8B72A7EAD2200604F48 /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				DEE2C8B82A7EAD7400604F48 /* OrderTypeGridView.swift */,
+			);
+			path = GridView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE39CD132A7C03590082B88F /* ContentView.swift in Sources */,
+				DEE2C8B92A7EAD7400604F48 /* OrderTypeGridView.swift in Sources */,
 				DE39CD112A7C03590082B88F /* ChefDeliveryApp.swift in Sources */,
 				DE57E6702A7D4D450073CBDF /* NavigationBar.swift in Sources */,
 			);
