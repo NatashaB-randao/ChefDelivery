@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct OderTypeView: View {
+struct OrderTypeView: View {
     
     let orderType: OrderType
     
@@ -24,9 +24,9 @@ struct OderTypeView: View {
     }
 }
 
-struct OderTypeView_Previews: PreviewProvider {
+struct OrderTypeView_Previews: PreviewProvider {
     static var previews: some View {
-        OderTypeView(orderType: OrderType(id: 1, name: "Restaurantes", image: "hamburguer"))
+        OrderTypeView(orderType: OrderType(id: 1, name: "Restaurantes", image: "hamburguer"))
         .previewLayout(.sizeThatFits)
         
     }
