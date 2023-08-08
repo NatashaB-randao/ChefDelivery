@@ -19,11 +19,15 @@ struct OrderTypeGridView: View {
                 OrderTypeView(orderType: orderItem)
             }
         }
+        .frame(height: 200)
+        .padding(.horizontal, 15)
+        .padding(.top, 15)
     }
 }
 
 struct OrderTypeGridView_Previews: PreviewProvider {
     static var previews: some View {
         OrderTypeGridView()
+            .previewLayout(.sizeThatFits)
     }
 }
