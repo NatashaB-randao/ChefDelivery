@@ -21,6 +21,8 @@ struct CarouselTabView: View {
                 CarouelItemView(order: mock)
             }
         }
+        .frame(height: 180)
+        .tabViewStyle(.page(indexDisplayMode: .always))
     }
 }
 
