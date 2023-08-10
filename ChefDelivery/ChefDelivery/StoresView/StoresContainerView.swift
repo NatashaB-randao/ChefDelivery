@@ -12,7 +12,7 @@ struct StoresContainerView: View {
     let title = "Lojas"
     
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             Text(title)
                 .font(.headline)
             
@@ -22,11 +22,13 @@ struct StoresContainerView: View {
                 }
             }
         }
+        .padding(20)
     }
 }
 
 struct StoresContainerView_Previews: PreviewProvider {
     static var previews: some View {
         StoresContainerView()
+            .previewLayout(.sizeThatFits)
     }
 }

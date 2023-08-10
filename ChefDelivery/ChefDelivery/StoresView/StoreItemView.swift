@@ -23,6 +23,11 @@ struct StoreItemView: View {
                 Text(order.name)
                     .font(.subheadline)
             }
+            
+            Spacer()
+        }
+        .onTapGesture {
+            print("clicou em \(order.name)")
         }
     }
 }
