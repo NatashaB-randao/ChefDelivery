@@ -15,6 +15,12 @@ struct StoresContainerView: View {
         VStack {
             Text(title)
                 .font(.headline)
+            
+            VStack(alignment: .leading, spacing: 30) {
+                ForEach(storesMock) { mock in
+                    StoreItemView(order: mock)
+                }
+            }
         }
     }
 }
