@@ -20,6 +20,7 @@
 		DEC229782A8299A8005FDD28 /* OrderTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC229772A8299A8005FDD28 /* OrderTypeView.swift */; };
 		DED961412A83F907002D0225 /* CarouelItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED961402A83F907002D0225 /* CarouelItemView.swift */; };
 		DED961432A83FD50002D0225 /* CarouselTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED961422A83FD50002D0225 /* CarouselTabView.swift */; };
+		DEDEA5402A8D1EFB0061DC53 /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDEA53F2A8D1EFB0061DC53 /* Double+.swift */; };
 		DEE2C8B92A7EAD7400604F48 /* OrderTypeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2C8B82A7EAD7400604F48 /* OrderTypeGridView.swift */; };
 		DEE2C8BC2A7EBCCD00604F48 /* OrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2C8BB2A7EBCCD00604F48 /* OrderType.swift */; };
 		DEE2C8BE2A7EBE3800604F48 /* DataSourceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2C8BD2A7EBE3800604F48 /* DataSourceMock.swift */; };
@@ -40,6 +41,7 @@
 		DEC229772A8299A8005FDD28 /* OrderTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeView.swift; sourceTree = "<group>"; };
 		DED961402A83F907002D0225 /* CarouelItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouelItemView.swift; sourceTree = "<group>"; };
 		DED961422A83FD50002D0225 /* CarouselTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabView.swift; sourceTree = "<group>"; };
+		DEDEA53F2A8D1EFB0061DC53 /* Double+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
 		DEE2C8B82A7EAD7400604F48 /* OrderTypeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeGridView.swift; sourceTree = "<group>"; };
 		DEE2C8BB2A7EBCCD00604F48 /* OrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderType.swift; sourceTree = "<group>"; };
 		DEE2C8BD2A7EBE3800604F48 /* DataSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceMock.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				DEE2C8B72A7EAD2200604F48 /* GridView */,
 				DED9613F2A83F8BE002D0225 /* CarouselView */,
 				DE67C6B12A85361500323A36 /* StoresView */,
+				DEDEA53E2A8D1EB00061DC53 /* Extension */,
 				DE39CD142A7C035B0082B88F /* Assets.xcassets */,
 				DE39CD162A7C035B0082B88F /* Preview Content */,
 			);
@@ -129,6 +132,14 @@
 				DED961422A83FD50002D0225 /* CarouselTabView.swift */,
 			);
 			path = CarouselView;
+			sourceTree = "<group>";
+		};
+		DEDEA53E2A8D1EB00061DC53 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DEDEA53F2A8D1EFB0061DC53 /* Double+.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		DEE2C8B72A7EAD2200604F48 /* GridView */ = {
@@ -225,6 +236,7 @@
 				DE50DD722A8698870013697B /* ProductType.swift in Sources */,
 				DE39CD132A7C03590082B88F /* ContentView.swift in Sources */,
 				DEE2C8BE2A7EBE3800604F48 /* DataSourceMock.swift in Sources */,
+				DEDEA5402A8D1EFB0061DC53 /* Double+.swift in Sources */,
 				DEC229782A8299A8005FDD28 /* OrderTypeView.swift in Sources */,
 				DE67C6B52A853B2D00323A36 /* StoresContainerView.swift in Sources */,
 				DEE2C8B92A7EAD7400604F48 /* OrderTypeGridView.swift in Sources */,
