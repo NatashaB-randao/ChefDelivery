@@ -33,7 +33,21 @@ struct ProductDetailView: View {
                     .padding(.horizontal)
             }
             
-            Spacer()
+            VStack(spacing: 16) {
+                Text("Quantidade")
+                    .font(.title3)
+                    .bold()
+                
+                HStack {
+                    Button {
+                        //
+                    } label: {
+                        Image(systemName: "minus.circle.fill")
+                            .font(.title)
+                    }
+
+                }
+            }
             
             Button {
                 print("O botão foi pressionado")
