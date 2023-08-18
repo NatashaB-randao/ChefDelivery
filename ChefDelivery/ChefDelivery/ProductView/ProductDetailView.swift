@@ -44,7 +44,13 @@ struct ProductDetailView: View {
                     } label: {
                         Image(systemName: "minus.circle.fill")
                             .font(.title)
+                            .bold()
+                            .background(Color("ColorRed"))
                     }
+                    
+                    Text("0")
+                        .font(.title2)
+                        .bold()
 
                 }
             }
