@@ -33,5 +33,5 @@ XCode: Ambiente de desenvolvimento integrado (IDE) oficial da Apple para desenvo
 
 Para executar este projeto, você precisa:
 
-Ter um macOS rodando em sua máquina.
-Ter a IDE XCode instalada em sua máquina. Você pode baixar pela App Store ou no site para desenvolvedores da Apple.
+* Ter um macOS rodando em sua máquina.
+* Ter a IDE XCode instalada em sua máquina. Você pode baixar pela App Store ou no site para desenvolvedores da Apple.
