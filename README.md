@@ -7,13 +7,13 @@ A aplicação ChefDelivery é a simulação de um aplicativo de restaurantes par
 
 ## 🔨 Funcionalidades do projeto
 
-Listagem das categorias de restaurantes;
-Carrossel de imagens destacando os destaques do momento;
-Listagem de restaurantes;
-Exibição detalhada do restaurante, incluindo nome, imagem e informações adicionais;
-Listagem de produtos oferecidos pelo restaurante;
-Exibição detalhada do produto, incluindo nome, imagem, descrição e preço;
-Implementação de um menu de filtragem para selecionar a quantidade de estrelas desejada;
+*Listagem das categorias de restaurantes;
+*Carrossel de imagens destacando os destaques do momento;
+*Listagem de restaurantes;
+*Exibição detalhada do restaurante, incluindo nome, imagem e informações adicionais;
+*Listagem de produtos oferecidos pelo restaurante;
+*Exibição detalhada do produto, incluindo nome, imagem, descrição e preço;
+*Implementação de um menu de filtragem para selecionar a quantidade de estrelas desejada;
 Exibição dos restaurantes filtrados de acordo com a seleção feita pelo usuário.
 
 ## ✔️ Técnicas e tecnologias
